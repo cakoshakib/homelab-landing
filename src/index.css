@@ -1,0 +1,75 @@
+:root {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  
+  /* Default theme colors (Coffee) */
+  --bg-color: #1a1410;
+  --card-bg: #2a2018;
+  --card-bg-hover: #3d2f24;
+  --border-color: #3d2f24;
+  --border-hover: #c9a876;
+  --text-color: #e8d5c4;
+  --icon-color: #c9a876;
+  --icon-hover: #e8d5c4;
+  
+  color: var(--text-color);
+  background-color: var(--bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: var(--icon-color);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--icon-hover);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--card-bg);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: var(--text-color);
+}
+button:hover {
+  border-color: var(--border-hover);
+  background-color: var(--card-bg-hover);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto var(--border-hover);
+}

@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {"name": "Plex", "url": "http://192.168.1.239:32400", "icon": "plex"},
+        {"name": "Overseer", "url": "http://192.168.1.239:5055", "icon": "eye-circle"},
+        {"name": "qBittorrent", "url": "http://192.168.1.239:8081", "icon": "download-box"},
+        {"name": "Radarr", "url": "http://192.168.1.239:7878", "icon": "filmstrip"},
+        {"name": "Sonarr", "url": "http://192.168.1.239:8989", "icon": "television-box"},
+        {"name": "Bazarr", "url": "http://192.168.1.239:6767", "icon": "message-video", "target": "_blank"},
+        {"name": "Prowlarr", "url": "http://192.168.1.239:9696", "icon": "spider-web"},
+        {"name": "Paperless", "url": "http://192.168.1.239:8000", "icon": "file-document-outline"},
+        {"name": "Portainer", "url": "http://192.168.1.239:9000", "icon": "ship-wheel"},
+        {"name": "Pihole", "url": "http://192.168.1.239/admin/", "icon": "dns"}
+    ]
+}
